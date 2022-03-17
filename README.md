@@ -14,7 +14,8 @@ El scrip es modular y se pueden activar o desactivar secciones según lo que que
 
 ¿Cómo funciona?
 ======
-La herramienta comienza haciendo una comprobación de las utilidades necesarias para desplegar el ataque:
+La herramienta comienza haciendo una comprobación de que el host de donde posteriormente se mapearán o se conectarán las unidades de red está operativo y tiene conexión directa. 
+En caso de fallo, la herramienta devuelve un error de conexión y se cerrará automaticamente.
 
 
 
