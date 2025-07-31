@@ -17,9 +17,19 @@ Un sistema de backup automatizado y robusto para Windows que realiza copias de s
 
 ```
 EasyWind-backup/
-├── EasyWInd-backup.bat    # Script principal mejorado
-├── config.ini             # Archivo de configuración
-└── README.md              # Esta documentación
+├── 📄 EasyWInd-backup.bat    # Script principal mejorado
+├── ⚙️ config.ini             # Archivo de configuración
+├── 🛠️ setup.bat              # Instalador interactivo
+├── 📖 README.md              # Esta documentación
+├── 📋 EXAMPLES.md            # Ejemplos y casos de uso
+├── 🤝 CONTRIBUTING.md        # Guía para contributors
+├── 🔒 SECURITY.md            # Política de seguridad
+├── 📝 CHANGELOG.md           # Historial de cambios
+├── 📄 LICENSE                # Licencia MIT
+└── 📂 .github/               # Templates y workflows
+    ├── ISSUE_TEMPLATE/       # Templates para issues
+    ├── workflows/            # GitHub Actions
+    └── pull_request_template.md
 ```
 
 ## ⚙️ Configuración
@@ -187,11 +197,44 @@ network_domain=midominio
 
 ## 🤝 Contribuciones
 
-Para reportar bugs o sugerir mejoras, crea un issue en el repositorio.
+¿Quieres contribuir a EasyWind Backup? ¡Excelente!
+
+- 📖 Lee nuestra [Guía de Contribución](CONTRIBUTING.md)
+- 🐛 Reporta bugs usando nuestros [templates de issues](.github/ISSUE_TEMPLATE/)
+- ✨ Sugiere nuevas features
+- 🔒 Reporta vulnerabilidades siguiendo nuestra [Política de Seguridad](SECURITY.md)
+- 📝 Mejora la documentación
+
+Para reportar bugs o sugerir mejoras:
+1. Revisa los [issues existentes](https://github.com/l3onkers/EasyWind-backup/issues)
+2. Usa los templates apropiados para crear nuevos issues
+3. Proporciona información detallada y pasos para reproducir
 
 ## 📄 Licencia
 
-Este proyecto está disponible bajo licencia libre para uso personal y comercial. 
+Este proyecto está licenciado bajo la Licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+
+### Uso Comercial
+✅ Permitido para uso comercial sin restricciones
+✅ Modificación y redistribución permitidas
+✅ Uso privado permitido
+❗ Sin garantía - usar bajo tu propio riesgo
+
+## 📚 Recursos Adicionales
+
+- 📝 [Historial de Cambios](CHANGELOG.md) - Ver todas las versiones y cambios
+- 📋 [Ejemplos Detallados](EXAMPLES.md) - Configuraciones para diferentes escenarios
+- 🔒 [Política de Seguridad](SECURITY.md) - Reportar vulnerabilidades
+- 🤝 [Guía para Contributors](CONTRIBUTING.md) - Cómo contribuir al proyecto
+
+## ⭐ ¿Te Gusta el Proyecto?
+
+Si EasyWind Backup te ha sido útil:
+- ⭐ Dale una estrella al repositorio
+- 🐦 Compártelo con tus colegas
+- 🐛 Reporta bugs para mejorarlo
+- 💡 Sugiere nuevas características
+- 🤝 Contribuye con código o documentación 
 equipo como una unidad de red o simplemente tenemos un servidor de datos en la red (como por ejemplo un servidor SAMBA) y queremos pasar datos a este o hacer una copia de seguirdad
 de los datos en local a ese servidor de forma simple y desatendida.
 
